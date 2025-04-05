@@ -1,0 +1,69 @@
+1. Write a java proram to understand and implement the concepts of classes and objects 
+
+package test;
+public class Integer {
+public static void main (String[] args) {
+int a = 5;
+System.out.println(a);
+double b = 3;
+System.out.println(b);
+char c = 'V';
+System.out.println(c);
+if (a%2==0){
+System.out.println("even");
+}
+else{
+System.out.println("odd");
+}
+for(int i=1; i<10;i++){
+System.out.println(i);
+}
+int day = 5;
+switch (day){
+case 1 : System.out.println("Monday");
+break;
+case 2 : System.out.println("Tuesday");
+break;
+case 3 : System.out.println("Wednesday");
+break;
+case 4 : System.out.println("Thursday");
+break;
+case 5 : System.out.println("Friday");
+break;
+case 6 : System.out.println("Saturday");
+break;
+case 7 : System.out.println("Sunday");
+break;
+     }
+}
+int myInt = 9;
+double myDouble = myInt;
+
+System.out.println(myInt);
+System.out.println(myDouble);
+      }
+{
+double myDouble = 9.68d;
+int myInt = (int)myDouble;
+System.out.println(myDouble);
+}
+int myInt = 9;
+String myString = "myInt";
+
+System.out.println(myInt);
+System.out.println(myString);
+      }
+{
+int Sam = 9;
+char myChat = (char) sam;
+
+System.out.println(sam);
+System.out.println(myChar);
+      }
+{
+char z = 'A';
+int num = z;
+System.out.println(num);
+      }
+}
+
